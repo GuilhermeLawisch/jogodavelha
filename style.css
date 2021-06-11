@@ -1,0 +1,49 @@
+h1,
+#result {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28pt;
+}
+
+#result {
+  font-size: 20pt;
+}
+
+#layout {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+#buttons input {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  font-size: 50pt;
+  outline: 0;
+  border: 0;
+}
+
+input:disabled {
+  color: black;
+}
+
+#reset {
+  position: absolute;
+  left: 50%;
+  top: 86%;
+  transform: translate(-50%, -50%);
+  font-size: 18pt;
+  padding: 10px;
+}
